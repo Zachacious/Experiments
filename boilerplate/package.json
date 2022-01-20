@@ -1,0 +1,28 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "Project starter",
+  "main": "main.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup --watch -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "dependencies": {
+    "@rollup/plugin-node-resolve": "^11.2.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "three": "^0.136.0"
+  }
+}
