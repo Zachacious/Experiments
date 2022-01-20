@@ -11,6 +11,9 @@ import {
   PlaneGeometry,
   MeshStandardMaterial,
   AmbientLight,
+  PointLightHelper,
+  DirectionalLight,
+  DirectionalLightHelper,
 } from "three";
 
 import { OrbitControls } from "./camera/OrbitControls";
@@ -42,8 +45,9 @@ class App {
     scene.add(ambientLight);
 
     //Create a PointLight and turn on shadows for the light
-    const light = new PointLight(0xffffff, 1, 100);
-    light.position.set(5, 10, 5);
+    // const light = new PointLight(0xffffff, 1, 100);
+    const light = new DirectionalLight(0xffffff, 1);
+    light.position.set(5, 10, 3);
     light.castShadow = true; // default false
     scene.add(light);
 
@@ -53,10 +57,19 @@ class App {
     light.shadow.camera.near = 0.5; // default
     light.shadow.camera.far = 500; // default
 
+    // const sphereSize = 1;
+    // const pointLightHelper = new PointLightHelper(light, sphereSize);
+    // scene.add(pointLightHelper);
+
+    const helper = new DirectionalLightHelper(light, 5);
+    scene.add(helper);
+
     const mesh = new Mesh(geometry, material);
     mesh.castShadow = true; //default is false
     mesh.receiveShadow = true; //default
     scene.add(mesh);
+
+    light.target = mesh;
 
     //Create a plane that receives shadows (but does not cast them)
     const planeGeometry = new PlaneGeometry(20, 20, 32, 32);
