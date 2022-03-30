@@ -1,3 +1,8 @@
+// ignore_for_file: avoid_print
+import 'dart:html' as html;
+import 'dart:async';
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -49,6 +54,22 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
+
+  @override
+  void initState() {
+    super.initState();
+    // if (Platform.isAndroid) {
+    html.window.onMessage.listen((event) {
+      // do something with received data
+      print('Flutter received message: ${event.data}');
+      print(event.data);
+
+      // return a response
+      if (event.ports.isNotEmpty) event.ports[0].postMessage("response data");
+      html.window.postMessage('Hi from FLUTTER!', '*');
+    });
+    // }
+  }
 
   void _incrementCounter() {
     setState(() {
