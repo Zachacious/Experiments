@@ -1,0 +1,21 @@
+// ===============================
+// A test of the Daggr programming
+// language.
+// ===============================
+
+import 'lib.daggr';
+
+let int x = 20;
+let int y = 30;
+
+let int z = x + y;
+
+let int sum = (int a, int b) => a + b;
+
+log(sum(x, y));
+
+let s = "Hello, world!";
+log(s);
+
+let concat = (string a, string b) => a + b;
+log(concat(s, "!"));

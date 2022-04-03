@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.js",
-    "build": "parcel build src/index.js"
+    "build": "parcel build src/index.js",
+    "gen-parser": "nearleyC src/grammer.ne -o src/grammer.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "moo": "^0.5.1",
+    "mz": "^2.7.0",
     "nearley": "^2.20.1"
   },
   "devDependencies": {

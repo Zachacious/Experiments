@@ -1,0 +1,530 @@
+[
+ {
+  "type": "DEFINE",
+  "data_type": "",
+  "qualifier": "LET",
+  "var_name": {
+   "type": "IDENT",
+   "value": "myVar",
+   "text": "myVar",
+   "offset": 4,
+   "lineBreaks": 0,
+   "line": 1,
+   "col": 5
+  },
+  "value": {
+   "type": "STRING",
+   "value": "Hello World!",
+   "text": "\"Hello World!\"",
+   "offset": 10,
+   "lineBreaks": 0,
+   "line": 1,
+   "col": 11
+  }
+ },
+ {
+  "type": "DEFINE",
+  "data_type": {
+   "type": "TYPE",
+   "value": "int",
+   "text": "int",
+   "offset": 33,
+   "lineBreaks": 0,
+   "line": 2,
+   "col": 7
+  },
+  "qualifier": "CONST",
+  "var_name": {
+   "type": "IDENT",
+   "value": "z",
+   "text": "z",
+   "offset": 37,
+   "lineBreaks": 0,
+   "line": 2,
+   "col": 11
+  },
+  "value": {
+   "type": "main",
+   "d": [
+    [
+     [
+      {
+       "type": "WS",
+       "value": " ",
+       "text": " ",
+       "offset": 40,
+       "lineBreaks": 0,
+       "line": 2,
+       "col": 14
+      }
+     ]
+    ],
+    {
+     "type": "NUM",
+     "value": "5",
+     "text": "5",
+     "offset": 41,
+     "lineBreaks": 0,
+     "line": 2,
+     "col": 15
+    },
+    [
+     []
+    ]
+   ]
+  }
+ },
+ {
+  "type": "DEFINE",
+  "data_type": {
+   "type": "TYPE",
+   "value": "int",
+   "text": "int",
+   "offset": 49,
+   "lineBreaks": 0,
+   "line": 3,
+   "col": 5
+  },
+  "qualifier": "LET",
+  "var_name": {
+   "type": "IDENT",
+   "value": "y",
+   "text": "y",
+   "offset": 53,
+   "lineBreaks": 0,
+   "line": 3,
+   "col": 9
+  },
+  "value": {
+   "type": "NUM",
+   "value": "10",
+   "text": "10",
+   "offset": 57,
+   "lineBreaks": 0,
+   "line": 3,
+   "col": 13
+  }
+ },
+ {
+  "type": "DEFINE",
+  "data_type": {
+   "type": "TYPE",
+   "value": "string",
+   "text": "string",
+   "offset": 66,
+   "lineBreaks": 0,
+   "line": 4,
+   "col": 5
+  },
+  "qualifier": "LET",
+  "var_name": {
+   "type": "IDENT",
+   "value": "$zach",
+   "text": "$zach",
+   "offset": 73,
+   "lineBreaks": 0,
+   "line": 4,
+   "col": 12
+  },
+  "value": {
+   "type": "main",
+   "d": [
+    [
+     [
+      {
+       "type": "WS",
+       "value": " ",
+       "text": " ",
+       "offset": 80,
+       "lineBreaks": 0,
+       "line": 4,
+       "col": 19
+      }
+     ]
+    ],
+    {
+     "type": "STRING",
+     "value": "zach",
+     "text": "\"zach\"",
+     "offset": 81,
+     "lineBreaks": 0,
+     "line": 4,
+     "col": 20
+    },
+    [
+     []
+    ]
+   ]
+  }
+ },
+ {
+  "type": "DEFINE",
+  "data_type": "",
+  "qualifier": "CONST",
+  "var_name": {
+   "type": "IDENT",
+   "value": "total",
+   "text": "total",
+   "offset": 96,
+   "lineBreaks": 0,
+   "line": 5,
+   "col": 7
+  },
+  "value": {
+   "type": "main",
+   "d": [
+    [
+     [
+      {
+       "type": "WS",
+       "value": " ",
+       "text": " ",
+       "offset": 103,
+       "lineBreaks": 0,
+       "line": 5,
+       "col": 14
+      }
+     ]
+    ],
+    {
+     "type": "A",
+     "d": [
+      {
+       "type": "IDENT",
+       "value": "z",
+       "text": "z",
+       "offset": 104,
+       "lineBreaks": 0,
+       "line": 5,
+       "col": 15
+      },
+      [
+       [
+        {
+         "type": "WS",
+         "value": " ",
+         "text": " ",
+         "offset": 105,
+         "lineBreaks": 0,
+         "line": 5,
+         "col": 16
+        }
+       ]
+      ],
+      {
+       "type": "PLUS",
+       "value": "+",
+       "text": "+",
+       "offset": 106,
+       "lineBreaks": 0,
+       "line": 5,
+       "col": 17
+      },
+      [
+       [
+        {
+         "type": "WS",
+         "value": " ",
+         "text": " ",
+         "offset": 107,
+         "lineBreaks": 0,
+         "line": 5,
+         "col": 18
+        }
+       ]
+      ],
+      {
+       "type": "IDENT",
+       "value": "y",
+       "text": "y",
+       "offset": 108,
+       "lineBreaks": 0,
+       "line": 5,
+       "col": 19
+      }
+     ],
+     "v": null
+    },
+    [
+     []
+    ]
+   ],
+   "v": null
+  }
+ },
+ {
+  "type": "DEFINE",
+  "data_type": "",
+  "qualifier": "CONST",
+  "var_name": {
+   "type": "IDENT",
+   "value": "calc",
+   "text": "calc",
+   "offset": 118,
+   "lineBreaks": 0,
+   "line": 6,
+   "col": 7
+  },
+  "value": {
+   "type": "main",
+   "d": [
+    [
+     []
+    ],
+    {
+     "type": "A",
+     "d": [
+      {
+       "type": "IDENT",
+       "value": "total",
+       "text": "total",
+       "offset": 125,
+       "lineBreaks": 0,
+       "line": 6,
+       "col": 14
+      },
+      [
+       [
+        {
+         "type": "WS",
+         "value": " ",
+         "text": " ",
+         "offset": 130,
+         "lineBreaks": 0,
+         "line": 6,
+         "col": 19
+        }
+       ]
+      ],
+      {
+       "type": "PLUS",
+       "value": "+",
+       "text": "+",
+       "offset": 131,
+       "lineBreaks": 0,
+       "line": 6,
+       "col": 20
+      },
+      [
+       [
+        {
+         "type": "WS",
+         "value": " ",
+         "text": " ",
+         "offset": 132,
+         "lineBreaks": 0,
+         "line": 6,
+         "col": 21
+        }
+       ]
+      ],
+      {
+       "type": "M",
+       "d": [
+        {
+         "type": "NUM",
+         "value": "2",
+         "text": "2",
+         "offset": 133,
+         "lineBreaks": 0,
+         "line": 6,
+         "col": 22
+        },
+        [
+         []
+        ],
+        {
+         "type": "MULT",
+         "value": "*",
+         "text": "*",
+         "offset": 134,
+         "lineBreaks": 0,
+         "line": 6,
+         "col": 23
+        },
+        [
+         []
+        ],
+        {
+         "type": "P",
+         "d": [
+          {
+           "type": "LPAREN",
+           "value": "(",
+           "text": "(",
+           "offset": 135,
+           "lineBreaks": 0,
+           "line": 6,
+           "col": 24
+          },
+          [
+           []
+          ],
+          {
+           "type": "M",
+           "d": [
+            {
+             "type": "M",
+             "d": [
+              {
+               "type": "NUM",
+               "value": "20",
+               "text": "20",
+               "offset": 136,
+               "lineBreaks": 0,
+               "line": 6,
+               "col": 25
+              },
+              [
+               [
+                {
+                 "type": "WS",
+                 "value": " ",
+                 "text": " ",
+                 "offset": 138,
+                 "lineBreaks": 0,
+                 "line": 6,
+                 "col": 27
+                }
+               ]
+              ],
+              {
+               "type": "MULT",
+               "value": "*",
+               "text": "*",
+               "offset": 139,
+               "lineBreaks": 0,
+               "line": 6,
+               "col": 28
+              },
+              [
+               [
+                {
+                 "type": "WS",
+                 "value": " ",
+                 "text": " ",
+                 "offset": 140,
+                 "lineBreaks": 0,
+                 "line": 6,
+                 "col": 29
+                }
+               ]
+              ],
+              {
+               "type": "NUM",
+               "value": "10",
+               "text": "10",
+               "offset": 141,
+               "lineBreaks": 0,
+               "line": 6,
+               "col": 30
+              }
+             ],
+             "v": null
+            },
+            [
+             []
+            ],
+            {
+             "type": "MULT",
+             "value": "*",
+             "text": "*",
+             "offset": 143,
+             "lineBreaks": 0,
+             "line": 6,
+             "col": 32
+            },
+            [
+             []
+            ],
+            {
+             "type": "E",
+             "d": [
+              {
+               "type": "NUM",
+               "value": "5",
+               "text": "5",
+               "offset": 144,
+               "lineBreaks": 0,
+               "line": 6,
+               "col": 33
+              },
+              [
+               [
+                {
+                 "type": "WS",
+                 "value": " ",
+                 "text": " ",
+                 "offset": 145,
+                 "lineBreaks": 0,
+                 "line": 6,
+                 "col": 34
+                }
+               ]
+              ],
+              {
+               "type": "POW",
+               "value": "**",
+               "text": "**",
+               "offset": 146,
+               "lineBreaks": 0,
+               "line": 6,
+               "col": 35
+              },
+              [
+               [
+                {
+                 "type": "WS",
+                 "value": " ",
+                 "text": " ",
+                 "offset": 148,
+                 "lineBreaks": 0,
+                 "line": 6,
+                 "col": 37
+                }
+               ]
+              ],
+              {
+               "type": "NUM",
+               "value": "3",
+               "text": "3",
+               "offset": 149,
+               "lineBreaks": 0,
+               "line": 6,
+               "col": 38
+              }
+             ],
+             "v": null
+            }
+           ],
+           "v": null
+          },
+          [
+           []
+          ],
+          {
+           "type": "RPAREN",
+           "value": ")",
+           "text": ")",
+           "offset": 150,
+           "lineBreaks": 0,
+           "line": 6,
+           "col": 39
+          }
+         ],
+         "v": null
+        }
+       ],
+       "v": null
+      }
+     ],
+     "v": null
+    },
+    [
+     []
+    ]
+   ],
+   "v": null
+  }
+ }
+]

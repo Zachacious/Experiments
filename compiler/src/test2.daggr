@@ -1,0 +1,6 @@
+let myVar="Hello World!";
+const int z = 5;
+let int y = 10;
+let string $zach = "zach";
+const total = z + y;
+const calc = total + 2*(20 * (10-5) ** 3);
